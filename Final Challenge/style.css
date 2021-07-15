@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap");
+*,
+* ::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: #2e323f;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header li {
+  list-style: none;
+  font-family: "oswald";
+  font-size: 18px;
+  color: white;
+}
+
+header ul {
+  margin: 0 auto;
+}
+
+header .registerCTA {
+  border: 3px solid #a59678;
+  display: inline-block;
+  background-color: #a59678;
+  border-radius: 100em;
+  padding: 0 0.5em;
+}
+
+header .icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5em;
+}
+
+header nav {
+  overflow: hidden;
+  position: relative;
+  padding: 1em 0;
+}
+
+header #myLinks {
+  display: none;
+}
+
+header :hover {
+  opacity: 0.75;
+}
+
+.section1 {
+  background-color: #3b4050;
+}
+/*# sourceMappingURL=style.css.map */
