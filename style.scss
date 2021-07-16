@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap");
+$primaryColor: #a59678;
+$secondaryColor: #3b4050;
+$breakpoint-tablet: 700px;
+$breakpoint-desktop: 1000px;
+
+*,
+* ::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: #2e323f;
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 0 0.5em;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  li {
+    list-style: none;
+    font-family: "oswald";
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .registerCTA {
+    border: 3px solid $primaryColor;
+    display: inline-block;
+    background-color: $primaryColor;
+    border-radius: 100em;
+    padding: 0 0.2em;
+  }
+
+  .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  #myLinks {
+    display: none;
+  }
+
+  nav {
+    overflow: hidden;
+    position: relative;
+    padding: 0.5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li + li {
+      margin-top: 0.5em;
+    }
+
+    .navLeft {
+      width: 30%;
+      align-self: center;
+    }
+
+    ul {
+      width: 70%;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    img {
+      margin-left: 30px;
+    }
+  }
+}
+
+.section1 {
+  background-color: $secondaryColor;
+  padding: 30px;
+  text-align: center;
+
+  h1 {
+    font-size: 60px;
+    font-family: "oswald";
+    margin-top: 0;
+    line-height: 1.1em;
+    color: white;
+  }
+
+  span {
+    color: $primaryColor;
+  }
+
+  p {
+    font-family: "montserrat";
+    font-size: 19px;
+    color: white;
+  }
+
+  a {
+    border: 3px solid $primaryColor;
+    display: inline-block;
+    background-color: $primaryColor;
+    border-radius: 100em;
+    padding: 0 1em;
+    text-decoration: none;
+    color: white;
+    font-family: "oswald";
+    font-size: 24px;
+    text-transform: uppercase;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}
+
+.section2 {
+  background-color: #e5e7eb;
+  text-align: center;
+  padding: 30px 10px;
+
+  h2 {
+    margin-top: 0;
+    color: $primaryColor;
+    font-family: "oswald";
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-family: "montserrat";
+    font-size: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+    // margin-top: ;
+  }
+
+  p + h2 {
+    margin-top: 20px;
+  }
+}
+
+.section3 {
+  padding: 30px 10px;
+  text-align: center;
+  line-height: 1.5em;
+
+  .sectionLeft {
+    h2 {
+      font-family: "oswald";
+      font-size: 30px;
+      color: $primaryColor;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    p {
+      font-family: "montserrat";
+      font-size: 16px;
+    }
+  }
+
+  .sectionRight {
+    h2 {
+      font-family: "oswald";
+      font-size: 25px;
+      color: white;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: "montserrat";
+      font-size: 14px;
+      color: white;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .col {
+      background-color: $secondaryColor;
+      padding: 30px 10px;
+    }
+
+    .col + .col {
+      margin-top: 10px;
+    }
+  }
+}
+
+footer {
+  background-color: $secondaryColor;
+  padding: 30px 10px;
+  text-align: center;
+
+  h1 {
+    margin-top: 0;
+    color: white;
+    font-family: "oswald";
+    font-size: 35px;
+  }
+
+  h3 {
+    color: $primaryColor;
+    font-family: "oswald";
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    color: grey;
+    font-size: 16px;
+    font-family: "montserrat";
+  }
+
+  a {
+    text-decoration: none;
+    color: grey;
+  }
+
+  p {
+    color: grey;
+    font-size: 16px;
+    font-family: "montserrat";
+  }
+}

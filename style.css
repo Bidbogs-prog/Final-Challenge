@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap");
+*,
+* ::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: #2e323f;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  padding: 0 0.5em;
+}
+
+header a:hover {
+  opacity: 0.75;
+}
+
+header li {
+  list-style: none;
+  font-family: "oswald";
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+header .registerCTA {
+  border: 3px solid #a59678;
+  display: inline-block;
+  background-color: #a59678;
+  border-radius: 100em;
+  padding: 0 0.2em;
+}
+
+header .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+header #myLinks {
+  display: none;
+}
+
+header nav {
+  overflow: hidden;
+  position: relative;
+  padding: 0.5em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav li + li {
+  margin-top: 0.5em;
+}
+
+header nav .navLeft {
+  width: 30%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+header nav ul {
+  width: 70%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+header nav img {
+  margin-left: 30px;
+}
+
+.section1 {
+  background-color: #3b4050;
+  padding: 30px;
+  text-align: center;
+}
+
+.section1 h1 {
+  font-size: 60px;
+  font-family: "oswald";
+  margin-top: 0;
+  line-height: 1.1em;
+  color: white;
+}
+
+.section1 span {
+  color: #a59678;
+}
+
+.section1 p {
+  font-family: "montserrat";
+  font-size: 19px;
+  color: white;
+}
+
+.section1 a {
+  border: 3px solid #a59678;
+  display: inline-block;
+  background-color: #a59678;
+  border-radius: 100em;
+  padding: 0 1em;
+  text-decoration: none;
+  color: white;
+  font-family: "oswald";
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.section1 a:hover {
+  opacity: 0.75;
+}
+
+.section2 {
+  background-color: #e5e7eb;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.section2 h2 {
+  margin-top: 0;
+  color: #a59678;
+  font-family: "oswald";
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.section2 p {
+  font-family: "montserrat";
+  font-size: 16px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.section2 p + h2 {
+  margin-top: 20px;
+}
+
+.section3 {
+  padding: 30px 10px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.section3 .sectionLeft h2 {
+  font-family: "oswald";
+  font-size: 30px;
+  color: #a59678;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section3 .sectionLeft p {
+  font-family: "montserrat";
+  font-size: 16px;
+}
+
+.section3 .sectionRight h2 {
+  font-family: "oswald";
+  font-size: 25px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.section3 .sectionRight p {
+  font-family: "montserrat";
+  font-size: 14px;
+  color: white;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.section3 .sectionRight .col {
+  background-color: #3b4050;
+  padding: 30px 10px;
+}
+
+.section3 .sectionRight .col + .col {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #3b4050;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+footer h1 {
+  margin-top: 0;
+  color: white;
+  font-family: "oswald";
+  font-size: 35px;
+}
+
+footer h3 {
+  color: #a59678;
+  font-family: "oswald";
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  color: grey;
+  font-size: 16px;
+  font-family: "montserrat";
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+footer p {
+  color: grey;
+  font-size: 16px;
+  font-family: "montserrat";
+}
+/*# sourceMappingURL=style.css.map */
