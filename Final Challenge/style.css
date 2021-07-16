@@ -21,6 +21,11 @@ header {
 header a {
   text-decoration: none;
   color: white;
+  padding: 0 0.5em;
+}
+
+header a:hover {
+  opacity: .75;
 }
 
 header li {
@@ -28,10 +33,7 @@ header li {
   font-family: "oswald";
   font-size: 18px;
   color: white;
-}
-
-header ul {
-  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 header .registerCTA {
@@ -39,36 +41,56 @@ header .registerCTA {
   display: inline-block;
   background-color: #a59678;
   border-radius: 100em;
-  padding: 0 0.5em;
+  padding: 0 0.2em;
 }
 
 header .icon {
-  background: black;
-  display: block;
   position: absolute;
   right: 0;
   top: 0;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-right: 10px;
-  border-radius: 5em;
-}
-
-header nav {
-  overflow: hidden;
-  position: relative;
-  padding: 1em 0;
 }
 
 header #myLinks {
   display: none;
 }
 
-header :hover {
-  opacity: 0.75;
+header nav {
+  overflow: hidden;
+  position: relative;
+  padding: .5em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.section1 {
-  background-color: #3b4050;
+header nav li + li {
+  margin-top: .5em;
+}
+
+header nav .navLeft {
+  width: 30%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+header nav ul {
+  width: 70%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+header nav img {
+  margin-left: 30px;
 }
 /*# sourceMappingURL=style.css.map */
